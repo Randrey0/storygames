@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Test</title>
+  </head>
+  <body>
+    <section id="home">
+      <div class="container">
+        <!-- Navigasi -->
+        <div class="navbar">
+          <ul class="navigasi">
+            <img src="img/logoedit.jpeg" width="60px" height="60px" alt="logo" />
+            <li class="nav">
+              <a href="#home" class="navlink">HOME</a>
+            </li>
+            <li class="nav">
+              <a href="#news" class="navlink">NEWS</a>
+            </li>
+            <li class="nav">
+              <a href="about.html" class="navlink">ABOUT</a>
+            </li>
+            <li class="nav">
+              <a href="kontak.html" class="navlink">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Jumbotron -->
+        <section class="jumbotron text-center">
+          <p class="display-4">WELCOME</p>
+          <img src="img/logo.jpeg" alt="story games" width="190" class="rounded-circle" />
+          <p class="display-4">Story Games</p>
+          <p class="lead">Story & Informasi Seputar Games</p>
+        </section>
+        <!-- End Jumbotron -->
+      </div>
+      <!-- News -->
+      <div id="news">
+          <h1>NEWS</h1>
+        <div class="gallery">
+            <a href="gta.html">
+              <img src="img/GTASA.jpg" alt="gta">
+            </a>
+            <div class="desc">Grand Theft Auto: San Andreas</div>
+          </div>
+        
+          <div class="gallery">
+            <a href="re4.html">
+              <img src="img/re4.jpg" alt="re4">
+            </a>
+            <div class="desc">Resident Evil 4</div>
+          </div>
+          
+          <div class="gallery">
+            <a href="godhand.html">
+              <img src="img/godhand.jpeg" alt="godhand">
+            </a>
+            <div class="desc">God Hand</div>
+          </div>
+          
+          <div class="gallery">
+            <a href="img/padangbai.jpg">
+              <img src="img/padangbai.jpg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+        
+          <div class="gallery">
+            <a href="img/pandawa.jpg">
+              <img src="img/pandawa.jpg" alt="Mountains" width="600" height="400"*>
+            </a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+        
+          <div class="gallery">
+            <a href="img/tanjungbenoa.jpg">
+              <img src="img/tanjungbenoa.jpg" alt="Mountains" width="600" height="400"*>
+            </a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+        
+          <div class="gallery">
+            <a href="img/sanur.jpg ">
+              <img src="img/sanur.jpg" alt="Mountains" width="600" height="400"*>
+            </a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+        
+        </div>
+        <!-- End News -->
+        
+    <div class="top" onclick="goToTop()">UP</div>
+    <script>
+      const goToTop = () => {
+        return (location.href = "#home");
+      };
+    </script>
+    <footer class="text-white text-center pb-1" style="background-color: #1c2840">
+      <p>Create by Kelompok 8</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

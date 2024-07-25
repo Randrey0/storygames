@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins:wght@200&display=swap");
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Kdam Thmor Pro";
+}
+
+section {
+  height: 100vh;
+  padding-top: 5rem;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: #1c2840;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navigasi {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.nav {
+  list-style: none;
+  padding: 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.nav:hover {
+  background-color: white;
+  border-radius: 15px;
+  transition: all ease-in-out 0.3s;
+}
+
+.nav:hover > a {
+  color: black;
+}
+img {
+  list-style: none;
+  text-decoration: none;
+}
+
+.navlink {
+  color: white;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+article .isi {
+  width: 98.5%;
+  height: auto;
+  margin: 5px 5px 5px 5px;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+  float: left;
+}
+article .isi .judul {
+  font-size: xx-large;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+article .isi p {
+  margin-top: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+article .isi img {
+  float: left;
+  margin: 5px 5px 5px 5px;
+}
+
+div.news {
+  padding-top: 5rem;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 200px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 230px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+div.ak {
+  text-align: center;
+}
+
+.judul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  color: white;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  width: 65px;
+  height: 65px;
+  background-color: #000000;
+  border-radius: 50px;
+  z-index: 1;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  background-color: #1c2840;
+  clear: both;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
